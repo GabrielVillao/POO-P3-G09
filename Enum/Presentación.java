@@ -1,4 +1,4 @@
 package Enum;
-public class Presentación {
-    
+public enum Presentación {
+    PASTILLA,INYECCION,SOLUCION,GOTAS,INHALADOR,POLVO;
 }
