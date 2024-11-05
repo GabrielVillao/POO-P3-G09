@@ -13,25 +13,24 @@ public class Perfil{
 
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        boolean i=false;
-        while(i){
-            System.out.println("""
+        System.out.println("""
                 Opciones:
                     a.Crear perfil
                     b. Seleccionar perfil
                     c. Salir
                     """);
 
-            System.out.println("Seleccione una opción(a/b)");
-            String op=sc.nextLine();
-            switch(op){
-                case "a":
-                break;
-                case "b":
-                break;
-                case "c":
-                break;
-            }
+        System.out.println("Seleccione una opción(a/b)");
+        String op=sc.nextLine();
+        switch(op){
+            case "a":
+            break;
+            case "b":
+            break;
+            case "c":
+            System.out.println("Gracias por elegirnos");
+            break;  
         }
     }
 }
+
