@@ -1,7 +1,7 @@
 package Aplicación;
 
 import Enum.Presentación;
-
+import java.util.ArrayList;
 public class Medicamentos extends Inventario {
     private String frecuencia;
     private String frecuenciaDia;
@@ -13,6 +13,13 @@ public class Medicamentos extends Inventario {
         this.frecuenciaDia = frecuenciaDia;
         this.dosis = dosis;
     }
+
+    public void listarMedicamentos(ArrayList<Medicamentos> lista){
+        for(Medicamentos list:lista){
+            System.out.println(list);
+        }
+    }
+    
 
     
     

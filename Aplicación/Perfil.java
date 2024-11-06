@@ -15,7 +15,7 @@ public class Perfil{
         Scanner sc=new Scanner(System.in);
         System.out.println("""
                 Opciones:
-                    a.Crear perfil
+                    a. Crear perfil
                     b. Seleccionar perfil
                     c. Salir
                     """);
@@ -24,8 +24,10 @@ public class Perfil{
         String op=sc.nextLine();
         switch(op){
             case "a":
+            System.out.println("Ingrese el nombre del miembro de la familia");
             break;
             case "b":
+            System.out.println("Estos son los perfiles disponibles");
             break;
             case "c":
             System.out.println("Gracias por elegirnos");
